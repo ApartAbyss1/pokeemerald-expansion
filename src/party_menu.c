@@ -78,6 +78,7 @@
 
 enum {
     MENU_SUMMARY,
+    MENU_MOVES,
     MENU_SWITCH,
     MENU_CANCEL1,
     MENU_ITEM,
