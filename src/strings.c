@@ -1850,3 +1850,4 @@ const u8 gText_BasePointsResetToZero[] = _("{STR_VAR_1}'s base points\nwere all 
 const u8 gText_Fertilize[] = _("FERTILIZE");
 const u8 gText_PlantBerry[] = _("PLANT BERRY");
 const u8 gText_Moves_Menu[] = _("Change Moves");
+const u8 gText_MenuPC[] = _("PC");
