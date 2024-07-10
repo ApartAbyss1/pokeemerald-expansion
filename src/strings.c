@@ -1851,3 +1851,4 @@ const u8 gText_Fertilize[] = _("FERTILIZE");
 const u8 gText_PlantBerry[] = _("PLANT BERRY");
 const u8 gText_Moves_Menu[] = _("Change Moves");
 const u8 gText_MenuPC[] = _("PC");
+const u8 gText_StatEditor[] = _("EDIT STATS");
