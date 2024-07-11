@@ -140,6 +140,9 @@ static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
 
+static const u8 sPokeVialDesc[]      = _("Heals your team!");
+
+
 const struct Item gItemsInfo[] =
 {
     [ITEM_NONE] =
@@ -12626,4 +12629,16 @@ const struct Item gItemsInfo[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+
+    [ITEM_POKE_VIAL] =
+    {
+        .name = _("Poke Vial"),
+        .price = 0,
+        .description = sPokeVialDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_PokeVial,
+    },
+
 };
