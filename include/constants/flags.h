@@ -44,7 +44,7 @@
 
 #define FLAG_PARTY_MOVES     0x20 // Party Moves
 #define FLAG_POKEMONPCMENU   0x21 // PC MENU
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
+#define FLAG_POKEVIAL        0x22 // POKEVIAL
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
