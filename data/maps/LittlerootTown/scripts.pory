@@ -1027,7 +1027,7 @@ script LittlerootTown_Pokevial {
         setflag(FLAG_POKEVIAL)
     } else {
         msgbox("Here's some candy!")
-		giveitem(ITEM_RARE_CANDY)
+		giveitem(ITEM_RARE_CANDY 999)
         releaseall
     }
 

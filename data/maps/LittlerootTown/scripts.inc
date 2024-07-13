@@ -2047,7 +2047,7 @@ LittlerootTown_Pokevial::
 # 1029 "data/maps/LittlerootTown/scripts.pory"
 	msgbox LittlerootTown_Pokevial_Text_0
 # 1030 "data/maps/LittlerootTown/scripts.pory"
-	giveitem ITEM_RARE_CANDY
+	giveitem ITEM_RARE_CANDY 999
 # 1031 "data/maps/LittlerootTown/scripts.pory"
 	releaseall
 LittlerootTown_Pokevial_1:
