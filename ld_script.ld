@@ -728,6 +728,7 @@ SECTIONS {
         src/pokemon_debug.o(.rodata);
         src/expansion_intro.o(.rodata);
         src/ui_stat_editor.o(.rodata);
+        src/ui_birch_case.o(.rodata);
     } > ROM =0
 
     song_data :

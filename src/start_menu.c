@@ -278,6 +278,7 @@ static void ShowSaveInfoWindow(void);
 static void RemoveSaveInfoWindow(void);
 static void HideStartMenuWindow(void);
 static void HideStartMenuDebug(void);
+static bool8 StartMenuUiMenuCallback(void);
 
 void SetDexPokemonPokenavFlags(void) // unused
 {
