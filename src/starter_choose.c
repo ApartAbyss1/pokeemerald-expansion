@@ -102,7 +102,7 @@ static const u8 sPokeballCoords[STARTER_MON_COUNT][2] =
     {120, 88},
     {180, 64},
     {60, 88},
-    {40,40},
+    {10,10},
 };
 
 static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
