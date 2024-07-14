@@ -101,7 +101,7 @@ static const u8 sPokeballCoords[STARTER_MON_COUNT][2] =
     {60, 64},
     {120, 88},
     {180, 64},
-    {240, 88},
+    {60, 88},
 };
 
 static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
@@ -109,6 +109,7 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {0, 9},
     {16, 10},
     {8, 4},
+    {32, 10},
 };
 
 static const u16 sStarterMon[STARTER_MON_COUNT] =
@@ -483,6 +484,10 @@ void CB2_ChooseStarter(void)
     spriteId = CreateSprite(&sSpriteTemplate_Pokeball, sPokeballCoords[2][0], sPokeballCoords[2][1], 2);
     gSprites[spriteId].sTaskId = taskId;
     gSprites[spriteId].sBallId = 2;
+
+    spriteId = CreateSprite(&sSpriteTemplate_Pokeball, sPokeballCoords[3][0], sPokeballCoords[3][1], 2);
+    gSprites[spriteId].sTaskId = taskId;
+    gSprites[spriteId].sBallId = 3;
 
     sStarterLabelWindowId = WINDOW_NONE;
 }
